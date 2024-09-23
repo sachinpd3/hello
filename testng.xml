@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" parallel="tests" verbose="1">
+    <listeners>
+        <listener class-name="TestNG.Listeners"></listener>
+    </listeners>
+    <test name="Regression1" thread-count="5">
+        <parameter name="url" value="www.googlr">
+        <classes>
+            <class name="TestNG.Day1">
+            </class>
+            <class name="TestNG.Day2">
+            </class>
+        </classes>
+        </parameter>
+    </test>
+</suite>
