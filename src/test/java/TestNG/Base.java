@@ -19,6 +19,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 
+/**
+ * this is for learning
+ */
 public class Base  {
    public static WebDriver driver;
    public static  ExtentReports report;
