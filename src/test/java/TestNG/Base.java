@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * this is for learning
+ * this is for child branch
  */
 public class Base  {
    public static WebDriver driver;
