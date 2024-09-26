@@ -1,6 +1,7 @@
 package DemoPage;
 
 import Reusable.AbstractComponent;
+import Reusable.CustomWebElement;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -39,7 +40,9 @@ public class OrdersPageObject extends AbstractComponent {
     WebElement LogIn;
 
     public void navigateOrderpage(){
-        orders.click();
+
+        CustomWebElement obj=new CustomWebElement(orders);
+        obj.click();
     }
 
 
